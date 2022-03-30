@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="dKsi+ni/^RPRGjh*hHD3" x="0" y="-228"><statement name="HANDLER"><block type="typescript_statement" id="RohT45XqUvJs~]4rdTaZ" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;hello my name is microbit welcome to your first class&quot;,75" line1=")" numlines="2"></mutation><next><block type="device_print_message" id="],mdpG[_6Z.O7J=PuBa6"><value name="text"><shadow type="text" id="M4UrvSG{hN;qD/qSSp{P"><field name="TEXT">press A+B to start</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="j6_,vTo2Xy(:v#Hv=Oq$" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="typescript_statement" id="_h.%1@FwK(Ju%Jc38~7_" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;lets start!&quot;,75)" numlines="1"></mutation><next><block type="device_clear_display" id="Sc!,WBn*=l}o4oROwVpS"><next><block type="typescript_statement" id="y5{LcH:c0#T|YrH%=F(]" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;this is a point its the starting point!&quot;,75)" numlines="1"></mutation><next><block type="controls_repeat_ext" id="71KVCcx(gkmKl/,]3s|A"><value name="TIMES"><shadow type="math_whole_number" id="+4kw81;AWznPvwKrJTii"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="*1hPB_@a@ER{JtVksQNG"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".vk(N-%Q:#yr=O~PBIb2"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=";+B1@+Q`q9~VhP15!%q("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement><next><block type="device_clear_display" id="GgY_4.ssCmctBL6U8)I_"><next><block type="typescript_statement" id="xxQ7UnR8]`u})?rDtR)0" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;if your are ready press on a to start the second lesson&quot;,75)" numlines="1"></mutation></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="C]/Ly7toI[l!yrEo#Wiu" x="8" y="1105"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="ahl!oX@y|4[=Wpf|Whv!"><value name="text"><shadow type="text" id="^3bcI(xeRH,a^v?r7ISm"><field name="TEXT">now we gonna learn what is a line segment and line!</field></shadow></value><next><block type="controls_repeat_ext" id="H#m:I`KLskboI]QPa}1["><value name="TIMES"><shadow type="math_whole_number" id="+OO9WU6O;Pp^l-phE|qn"><field name="NUM">6</field></shadow></value><statement name="DO"><block type="device_print_message" id="ZM7#sjY@%#E4Ae,muVdz"><value name="text"><shadow type="text" id="i{)3gO{J7dfS)H0X4LxV"><field name="TEXT">this is a line</field></shadow></value><next><block type="device_show_leds" id="h_Ocwwn!i!Wl*6X8}LUe"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field><next><block type="device_show_leds" id="M#|evW9(GA,H_G3r,VL/"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="6;:13`~t1=gwSDll=ox1"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field></block></next></block></next></block></next></block></statement><next><block type="device_print_message" id="Vay4|p527[.grl61YJf+"><value name="text"><shadow type="text" id="l5+_]mFW~%CiTMDK}ULC"><field name="TEXT">this is a line segment its not a entire line</field></shadow></value><next><block type="controls_repeat_ext" id="a;OivES,lfv/sxZH}qjY"><value name="TIMES"><shadow type="math_whole_number" id="ZG#m?OIwAjNhq{zX@jd:"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="rT[0RbH_YLQ6e.S~d}V]"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="1Ilx-{.:w)UylS1,V@H:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="w,E]-Nw*zAKEBvA51dmv"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></next></block></next></block></next></block></statement></block></xml>
